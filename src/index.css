@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 *,
 *::after,
 *::before {
@@ -11,4 +12,66 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+body {
+  font-family: "Roboto Condensed", "sans-serif";
+  background-color: rgb(235, 235, 213);
+}
+.section-center {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+h3 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+label {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+input {
+  border: none;
+  font-size: 1.4rem;
+  height: 50px;
+  width: 70px;
+  padding: 10px;
+}
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Roboto Condesed";
+  letter-spacing: 2px;
+}
+.btn:hover {
+  background-color: rgb(241, 241, 186);
+}
+.clipboard {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 200px;
+}
+.clipboard span {
+  font-size: 1.2rem;
+  color: rgb(207, 160, 20);
 }
